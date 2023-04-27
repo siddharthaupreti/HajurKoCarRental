@@ -5,65 +5,72 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Hajur_Ko_Car_Rental
 build_property.RootNamespace = Hajur_Ko_Car_Rental
-build_property.ProjectDir = D:\.Net projects\HajurKoCarRental\
+build_property.ProjectDir = D:\Documents\sem6\app dev\HajurKoCarRental\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\.Net projects\HajurKoCarRental
+build_property.MSBuildProjectDirectory = D:\Documents\sem6\app dev\HajurKoCarRental
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/.Net projects/HajurKoCarRental/Views/Dashboard/admin.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/Dashboard/admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXGFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net projects/HajurKoCarRental/Views/Dashboard/customer.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/Dashboard/customer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXGN1c3RvbWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net projects/HajurKoCarRental/Views/Dashboard/Display.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/Dashboard/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERpc3BsYXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net projects/HajurKoCarRental/Views/Dashboard/staff.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/Dashboard/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFJlZ2lzdHJhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/Dashboard/staff.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXHN0YWZmLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net projects/HajurKoCarRental/Views/Home/Index.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net projects/HajurKoCarRental/Views/Home/Privacy.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net projects/HajurKoCarRental/Views/Shared/Error.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/Shared/admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net projects/HajurKoCarRental/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net projects/HajurKoCarRental/Views/UserAuthentication/Login.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/UserAuthentication/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net projects/HajurKoCarRental/Views/UserAuthentication/Registration.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/UserAuthentication/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXFJlZ2lzdHJhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net projects/HajurKoCarRental/Views/_ViewImports.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net projects/HajurKoCarRental/Views/_ViewStart.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net projects/HajurKoCarRental/Views/Shared/_Layout.cshtml]
+[D:/Documents/sem6/app dev/HajurKoCarRental/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jtf5b9l165

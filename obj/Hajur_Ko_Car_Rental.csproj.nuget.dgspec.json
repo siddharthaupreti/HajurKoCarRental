@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net projects\\HajurKoCarRental\\Hajur_Ko_Car_Rental.csproj": {}
+    "D:\\Documents\\sem6\\app dev\\HajurKoCarRental\\Hajur_Ko_Car_Rental.csproj": {}
   },
   "projects": {
-    "D:\\.Net projects\\HajurKoCarRental\\Hajur_Ko_Car_Rental.csproj": {
+    "D:\\Documents\\sem6\\app dev\\HajurKoCarRental\\Hajur_Ko_Car_Rental.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net projects\\HajurKoCarRental\\Hajur_Ko_Car_Rental.csproj",
+        "projectUniqueName": "D:\\Documents\\sem6\\app dev\\HajurKoCarRental\\Hajur_Ko_Car_Rental.csproj",
         "projectName": "Hajur_Ko_Car_Rental",
-        "projectPath": "D:\\.Net projects\\HajurKoCarRental\\Hajur_Ko_Car_Rental.csproj",
-        "packagesPath": "C:\\Users\\sid87\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net projects\\HajurKoCarRental\\obj\\",
+        "projectPath": "D:\\Documents\\sem6\\app dev\\HajurKoCarRental\\Hajur_Ko_Car_Rental.csproj",
+        "packagesPath": "C:\\Users\\samsr\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\sem6\\app dev\\HajurKoCarRental\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sid87\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samsr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -72,6 +76,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.13, )"
+            },
+            "SimpleInjector": {
+              "target": "Package",
+              "version": "[5.4.1, )"
             }
           },
           "imports": [
@@ -93,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

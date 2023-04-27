@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Hajur_Ko_Car_Rental.Models;
 using Hajur_Ko_Car_Rental.Models.Identity;
+using SimpleInjector;
 
 namespace Hajur_Ko_Car_Rental.Data
 {
@@ -11,5 +12,7 @@ namespace Hajur_Ko_Car_Rental.Data
 		{
 			Database.EnsureCreated();
 		}
+
+		//public DbSet<Models.DTO.RegistrationModel> Registrations { get; set; }
 	}
 }

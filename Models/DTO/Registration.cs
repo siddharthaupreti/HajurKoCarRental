@@ -1,9 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace Hajur_Ko_Car_Rental.Models.DTO
 {
+	
 	public class RegistrationModel
+		
 	{
+		
 		[Required]
 		public string FirstName { get; set; }
 		[Required]

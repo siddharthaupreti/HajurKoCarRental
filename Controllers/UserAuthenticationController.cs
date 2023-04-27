@@ -57,7 +57,7 @@ namespace Hajur_Ko_Car_Rental.Controllers
         public async Task<IActionResult> Registration(RegistrationModel model)
         {
             if (!ModelState.IsValid) { return View(model); }
-            model.Role = "user";
+            //model.Role = "user";
             var result = await this._authService.RegisterAsync(model);
             TempData["msg"] = result.Message;
             return RedirectToAction(nameof(Registration));
