@@ -1,5 +1,7 @@
 using Hajur_Ko_Car_Rental.Data;
 using Hajur_Ko_Car_Rental.Models.Identity;
+using Hajur_Ko_Car_Rental.Repositories.Abstract;
+using Hajur_Ko_Car_Rental.Repositories.Implementation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -17,9 +19,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 // For Identity
 
-//builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-//	.AddEntityFrameworkStores<ApplicationDbContext>()
-//	.AddDefaultTokenProviders();
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+	.AddEntityFrameworkStores<ApplicationDbContext>()
+	.AddDefaultTokenProviders();
+
+builder.Services.ConfigureApplicationCookie(op => op.LoginPath = "/UserAuthentication/Login");
+
+builder.Services.AddScoped<IUserAuthenticationService, UserAuthenticationService>();
 
 var app = builder.Build();
 
@@ -35,11 +41,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
 	name: "default",
-	pattern: "{controller=Home}/{action=Index}/{id?}");
+	pattern: "{controller=UserAuthentication}/{action=Login}/{id?}");
 
 app.Run();

@@ -1,0 +1,22 @@
+﻿@{
+    string username = User.Identity.Name;
+}
+<div>
+
+    @if (User.IsInRole("admin"))
+    {
+        <h1>This is admin page</h1>
+        <h1>welcome @username</h1>
+    }
+    else if (User.IsInRole("staff"))
+    {
+        <h1>This is staff page</h1>
+        <h1>welcome @username</h1>
+    }
+    else if (User.IsInRole("customer"))
+    {
+          <h1>This is customer page</h1>
+          <h1>welcome @username</h1>
+    }
+ 
+</div>

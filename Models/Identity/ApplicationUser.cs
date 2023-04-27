@@ -6,6 +6,6 @@ namespace Hajur_Ko_Car_Rental.Models.Identity
 {
 	public class ApplicationUser : IdentityUser
 	{
-		[Display(Name = "Full name")] public string? FullName { get; set; }
+		 public string? FullName { get; set; }
 	}
 }
