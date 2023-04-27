@@ -1,0 +1,33 @@
+﻿@model List<Microsoft.AspNetCore.Identity.IdentityUser>
+
+<h1>All Users</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Email Confirmed</th>
+            <th>Lockout End</th>
+            <th>Lockout Enabled</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.EmailConfirmed</td>
+                <td>@user.LockoutEnd</td>
+                <td>@user.LockoutEnabled</td>
+                <td><a href="@Url.Action("EditUser", new { id = user.Id })">Edit</a></td>
+                <td><a href="@Url.Action("DeleteUser", new { id = user.Id })">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
